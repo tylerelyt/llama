@@ -86,6 +86,12 @@ python example1.py
 4. 推送到分支 (`git push origin feature-branch`)
 5. 创建一个 Pull Request
 
+## 贡献者
+
+<a href="https://github.com/tylerelyt/llama/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tylerelyt/llama" />
+</a>
+
 ## 许可证
 
 本仓库的代码和文档遵循 [MIT License](LICENSE) 许可证。
