@@ -1,0 +1,34 @@
+# LICENSE
+
+This code is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.  
+For full details of this license, please visit [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Applicability
+
+This license applies **only to code versions tagged `v0.0.1` and later** in this repository.  
+For earlier versions (before `v0.0.1`), no explicit license is granted, and all rights are reserved by the authors.
+
+## Summary
+
+### Permissions:
+- **You may:**
+  - Share: Copy and redistribute the material in any medium or format.
+  - Adapt: Remix, transform, and build upon the material.
+
+### Conditions:
+- **Attribution (BY):**
+  You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
+  Attribution should include the original course name:  
+  _"LLaMA 3 前沿模型实战课"_ ([https://time.geekbang.org/column/intro/1008283010](https://time.geekbang.org/column/intro/1008283010)).
+
+- **NonCommercial (NC):**
+  You may not use the material for commercial purposes without explicit permission from the authors.
+
+- **ShareAlike (SA):**
+  If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+## Author's Reserved Rights:
+The authors retain the right to use this code, and any modifications thereof, in their own publications, including commercial works such as books, articles, or online content related to the original course.
+
+## Disclaimer:
+This license applies exclusively to the source code contained within this repository starting from `v0.0.1`. All course content, including video lectures, slides, and other materials, is protected by copyright and is not covered by this license.
