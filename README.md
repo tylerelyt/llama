@@ -92,9 +92,5 @@ python example1.py
   <img src="https://contrib.rocks/image?repo=tylerelyt/llama" />
 </a>
 
-## 许可证
-
-本仓库的代码和文档遵循 [MIT License](LICENSE) 许可证。
-
 ## Stargazers over time
 [![Stargazers over time](https://starchart.cc/tylerelyt/llama.svg?variant=adaptive)](https://starchart.cc/tylerelyt/llama)
