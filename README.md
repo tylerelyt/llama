@@ -1,96 +1,109 @@
-# 课程配套代码示例仓库
+# LLaMa in Action
 
-本项目包含 [极客时间 LlaMa 3 系列课程](https://time.geekbang.org/column/intro/100828301) 的代码示例、练习以及相关资料。仓库内容会随着课程的进展持续更新，建议您定期查看以获取最新的学习资源。
+This repository contains code examples, exercises, and tools designed to explore and implement concepts around the **LLaMA series of models**. It aims to provide a hands-on learning experience for understanding advanced machine learning and AI applications.
 
-## 目录
+## Table of Contents
 
-- [简介](#简介)
-- [环境设置](#环境设置)
-- [代码结构](#代码结构)
-- [使用方法](#使用方法)
-- [常见问题](#常见问题)
-- [贡献指南](#贡献指南)
-- [许可证](#许可证)
+- [Introduction](#introduction)
+- [Environment Setup](#environment-setup)
+- [Code Structure](#code-structure)
+- [Usage](#usage)
+- [FAQ](#faq)
+- [Contribution Guide](#contribution-guide)
+- [License](#license)
+- [About the Course](#about-the-course)
 
-## 简介
+## Introduction
 
-本仓库旨在帮助您更好地理解和实践课程中的概念。每个章节或模块的代码示例、习题和相关文档都将放在相应的文件夹中。
+The **LLaMa in Action** repository offers a structured approach to learning and implementing cutting-edge AI concepts. Each chapter or module includes code examples, exercises, and documentation to deepen your understanding and accelerate practical skill-building.
 
-**注意：** 课程内容会不断更新，因此请定期查看仓库以获取最新的练习和资料。
+**Note:** The repository will be updated regularly. Please check back often for the latest improvements and new content.
 
-## 环境设置
+## Environment Setup
 
-为了顺利运行代码，请确保您具备以下环境：
+To run the code examples smoothly, ensure your environment meets the following requirements:
 
-- Python 版本：3.x
-- 依赖库：可以通过以下命令安装所需的依赖库
+- **Python Version**: 3.x
+- **Dependencies**: Install the required packages using:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-我们建议使用虚拟环境来管理依赖库，例如 `venv` 或 `conda`：
+We recommend using a virtual environment for better dependency management:
 
 ```bash
-# 使用 venv
+# Using venv
 python3 -m venv env
-source env/bin/activate  # 在 Windows 上使用 `env\Scripts\activate`
+source env/bin/activate  # On Windows, use `env\Scripts\activate`
 
-# 使用 conda
+# Using conda
 conda create --name myenv python=3.x
 conda activate myenv
 ```
 
-## 代码结构
+## Code Structure
 
-本仓库的目录结构如下：
+The repository is organized as follows:
 
 ```
-├── chapter1/        # 第一章节相关代码
-│   ├── example1.py  # 章节示例代码
-│   └── exercise1.py # 章节练习
-├── chapter2/        # 第二章节相关代码
+├── chapter1/        # Code for Chapter 1
+│   ├── example1.py  # Example code for the chapter
+│   └── exercise1.py # Exercises for the chapter
+├── chapter2/        # Code for Chapter 2
 │   ├── ...
-├── requirements.txt # 依赖文件
-└── README.md        # 仓库说明文件
+├── requirements.txt # Dependency file
+└── README.md        # Repository documentation
 ```
 
-## 使用方法
+## Usage
 
-每个章节目录中包含的代码文件是根据课程内容进行组织的，您可以运行这些文件来理解相关概念。
+Each chapter folder contains code files reflecting the corresponding concepts. Run these files to explore and understand key topics.
 
-示例：
+Example:
 
 ```bash
-# 进入到第1章的目录并运行示例代码
+# Navigate to Chapter 1 and run an example script
 cd chapter1
 python example1.py
 ```
 
-## 常见问题
+## FAQ
 
-1. **如何获取最新的更新？**
-   - 我们建议您定期 `git pull` 本仓库以获取最新的代码和资料。
+1. **How can I get the latest updates?**  
+   - Use `git pull` regularly to fetch the latest code and resources.
 
-2. **运行代码时遇到错误怎么办？**
-   - 请确保已经安装了所有依赖项，并按照文档说明正确设置了运行环境。
-   - 如果问题依然存在，请检查相应章节的 README 文件或提出 Issue。
+2. **What should I do if I encounter errors while running the code?**  
+   - Ensure dependencies are installed and your environment is set up as per the documentation.  
+   - If problems persist, check the README file for the specific chapter or open an issue.
 
-## 贡献指南
+## Contribution Guide
 
-如果您发现错误，或有任何改进建议，欢迎通过 Pull Request 贡献！
+We welcome contributions to improve this repository! Here's how to contribute:
 
-1. Fork 本仓库
-2. 创建新分支 (`git checkout -b feature-branch`)
-3. 提交您的更改 (`git commit -m 'Add new feature'`)
-4. 推送到分支 (`git push origin feature-branch`)
-5. 创建一个 Pull Request
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to your branch (`git push origin feature-branch`).
+5. Open a Pull Request.
 
-## 贡献者
+## Contributors
 
-<a href="https://github.com/tylerelyt/llama/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tylerelyt/llama" />
+<a href="https://github.com/tylerelyt/LLaMa-in-Action/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tylerelyt/LLaMa-in-Action" />
 </a>
 
-## Stargazers over time
-[![Stargazers over time](https://starchart.cc/tylerelyt/llama.svg?variant=adaptive)](https://starchart.cc/tylerelyt/llama)
+## Stargazers Over Time
+
+[![Stargazers over time](https://starchart.cc/tylerelyt/LLaMa-in-Action.svg?variant=adaptive)](https://starchart.cc/tylerelyt/LLaMa-in-Action)
+
+## License
+
+This repository is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.  
+The license applies only to versions tagged `v0.0.1` and later. Please see the [LICENSE](LICENSE) file for details.
+
+## About the Course
+
+This repository is a companion resource for the [GeekTime LLaMA Advanced Course](https://time.geekbang.org/column/intro/100828301). It contains practical examples, exercises, and additional materials to complement the course content. The materials are organized by chapters or modules to align with the course structure.
+
+**Note:** The repository content is continuously updated to match the course's progress. Be sure to check back regularly for the latest resources.
