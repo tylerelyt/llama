@@ -1,6 +1,12 @@
 # LLaMa in Action
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/049efcd7-5b47-4933-b55a-02ec90b98489" alt="logo" height="500">
+</div>
+
 This repository contains code examples, exercises, and tools designed to explore and implement concepts around the **LLaMA series of models**. It aims to provide a hands-on learning experience for understanding advanced machine learning and AI applications.
+
+[English](README.md) | [中文](https://github.com/tylerelyt/LLaMa-in-Action/blob/master/README_zh.md)
 
 ## Table of Contents
 
