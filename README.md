@@ -113,3 +113,6 @@ The license applies only to versions tagged `v0.0.1` and later. Please see the [
 This repository is a companion resource for the [GeekTime LLaMA Advanced Course](https://time.geekbang.org/column/intro/100828301). It contains practical examples, exercises, and additional materials to complement the course content. The materials are organized by chapters or modules to align with the course structure.
 
 **Note:** The repository content is continuously updated to match the course's progress. Be sure to check back regularly for the latest resources.
+
+![image](https://github.com/user-attachments/assets/25376122-8df2-41f7-be90-e9c53a1e020e)
+
