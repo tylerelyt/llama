@@ -1,118 +1,128 @@
-# LLaMa in Action
+# LLaMA实践指南
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/049efcd7-5b47-4933-b55a-02ec90b98489" alt="logo" height="500">
 </div>
 
-This repository contains code examples, exercises, and tools designed to explore and implement concepts around the **LLaMA series of models**. It aims to provide a hands-on learning experience for understanding advanced machine learning and AI applications.
+本仓库包含与 **LLaMA 模型系列**相关的代码示例、练习和工具，旨在提供动手学习的机会，帮助理解前沿的机器学习和人工智能应用。
 
-[English](README.md) | [中文](https://github.com/tylerelyt/LLaMa-in-Action/blob/master/README_zh.md)
+[English](README.md) | [中文](https://github.com/tylerelyt/LLaMA-in-Action/blob/master/README_zh.md)
 
-## Table of Contents
+| 题号 | 课程名称 | 难度 | 完成 |
+|------|----------|------|--------|
+| 1    | 揭示 LLaMA 3 对话能力的奥秘 | 简单 | ✅ |
+| 2    | 如何善用LLaMA 3长文本处理能力？ | 简单 | ✅ |
+| 3    | LLaMA 3 的应用探索：指令跟随的最佳实践 | 中等 | ✅ |
+| 4    | LLaMA 3 的思考之道：思维链的源流与应用 | 中等 | ✅ |
+| 5    | LLaMA 3如何通过提示词获得上下文学习能力？ | 中等 | ✅ |
+| 6    | LLaMA 3多轮推理应用：对话系统和自动化任务建模系统 | 中等 | ✅ |
+| 7    | 如何运用LLaMA 3的思维链实现频率增强？ | 中等 | ✅ |
+| 8    | 如何使用LLaMA 3进行多轮推理的搜索增强？ | 困难 |  |
+| 9    | 如何使用LLaMA 3进行多轮推理的反馈增强？ | 困难 | ✅ |
+| 10   | LLaMA 3的RAG检索增强全景 | 简单 | ✅ |
+| 11   | 如何借助LLaMA 3赋能索引构建？ | 中等 |  |
+| 12   | 如何利用 RAG 提升 Llama 问答系统准确性？ | 困难 |  |
+| 13   | 如何评估LLaMA 3的检索增强效果？ | 中等 |  |
+| 14   | 展望未来：LLaMA 3检索增强的潜力 | 中等 |  |
+| 15   | LLaMA 3的开源语言智能体方案 | 中等 |  |
+| 16   | 如何利用LLaMA 3实现多智能体协作？ | 困难 |  |
+| 17   | LLaMA 3多智能体实战：如何构建一个多智能体系统？ | 困难 |  |
+| 18   | LLaMA 3.2 Vision多模态模型，智能文档处理技术颠覆性升级 | 困难 |  |
+| 19   | LLaMA 3 具身智能体的无限潜能 | 困难 |  |
 
-- [Introduction](#introduction)
-- [Environment Setup](#environment-setup)
-- [Code Structure](#code-structure)
-- [Usage](#usage)
-- [FAQ](#faq)
-- [Contribution Guide](#contribution-guide)
-- [License](#license)
-- [About the Course](#about-the-course)
+## 简介
 
-## Introduction
+**LLaMA 实践指南** 仓库提供了一个结构化的学习方式，用于掌握和实现最先进的人工智能概念。每个章节或模块都包括代码示例、练习和文档，以加深理解并加速实用技能的构建。
 
-The **LLaMa in Action** repository offers a structured approach to learning and implementing cutting-edge AI concepts. Each chapter or module includes code examples, exercises, and documentation to deepen your understanding and accelerate practical skill-building.
+**注意：** 本仓库会定期更新，请持续关注以获取最新的改进和内容。
 
-**Note:** The repository will be updated regularly. Please check back often for the latest improvements and new content.
+## 环境配置
 
-## Environment Setup
+为顺利运行代码示例，请确保您的环境符合以下要求：
 
-To run the code examples smoothly, ensure your environment meets the following requirements:
-
-- **Python Version**: 3.x
-- **Dependencies**: Install the required packages using:
+- **Python 版本**：3.x
+- **依赖项**：通过以下命令安装所需的依赖项：
 
 ```bash
 pip install -r requirements.txt
 ```
 
-We recommend using a virtual environment for better dependency management:
+建议使用虚拟环境进行依赖管理：
 
 ```bash
-# Using venv
+# 使用 venv
 python3 -m venv env
-source env/bin/activate  # On Windows, use `env\Scripts\activate`
+source env/bin/activate  # Windows 用户使用 `env\Scripts\activate`
 
-# Using conda
+# 使用 conda
 conda create --name myenv python=3.x
 conda activate myenv
 ```
 
-## Code Structure
+## 代码结构
 
-The repository is organized as follows:
+本仓库的组织结构如下：
 
 ```
-├── chapter1/        # Code for Chapter 1
-│   ├── example1.py  # Example code for the chapter
-│   └── exercise1.py # Exercises for the chapter
-├── chapter2/        # Code for Chapter 2
+├── chapter1/        # 第 1 章代码
+│   ├── example1.py  # 该章的示例代码
+│   └── exercise1.py # 该章的练习代码
+├── chapter2/        # 第 2 章代码
 │   ├── ...
-├── requirements.txt # Dependency file
-└── README.md        # Repository documentation
+├── requirements.txt # 依赖文件
+└── README.md        # 仓库文档
 ```
 
-## Usage
+## 使用方法
 
-Each chapter folder contains code files reflecting the corresponding concepts. Run these files to explore and understand key topics.
+每个章节文件夹包含反映对应概念的代码文件。运行这些文件以探索并理解关键主题。
 
-Example:
+示例：
 
 ```bash
-# Navigate to Chapter 1 and run an example script
+# 进入第 1 章并运行示例脚本
 cd chapter1
 python example1.py
 ```
 
-## FAQ
+## 常见问题
 
-1. **How can I get the latest updates?**  
-   - Use `git pull` regularly to fetch the latest code and resources.
+1. **如何获取最新更新？**  
+   - 定期使用 `git pull` 拉取最新代码和资源。
 
-2. **What should I do if I encounter errors while running the code?**  
-   - Ensure dependencies are installed and your environment is set up as per the documentation.  
-   - If problems persist, check the README file for the specific chapter or open an issue.
+2. **运行代码时遇到错误怎么办？**  
+   - 确保已按文档配置环境并安装了所有依赖项。  
+   - 如果问题仍然存在，请查看对应章节的 README 文件或提交 issue。
 
-## Contribution Guide
+## 贡献指南
 
-We welcome contributions to improve this repository! Here's how to contribute:
+欢迎为本仓库做出贡献！以下是贡献流程：
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to your branch (`git push origin feature-branch`).
-5. Open a Pull Request.
+1. Fork 本仓库。
+2. 创建新分支（`git checkout -b feature-branch`）。
+3. 提交更改（`git commit -m 'Add new feature'`）。
+4. 推送到新分支（`git push origin feature-branch`）。
+5. 创建 Pull Request。
 
-## Contributors
+## 贡献者
 
-<a href="https://github.com/tylerelyt/LLaMa-in-Action/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tylerelyt/LLaMa-in-Action" />
+<a href="https://github.com/tylerelyt/LLaMA-in-Action/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tylerelyt/LLaMA-in-Action" />
 </a>
 
-## Stargazers Over Time
+## Star 变化趋势
 
-[![Stargazers over time](https://starchart.cc/tylerelyt/LLaMa-in-Action.svg?variant=adaptive)](https://starchart.cc/tylerelyt/LLaMa-in-Action)
+[![Stargazers over time](https://starchart.cc/tylerelyt/LLaMA-in-Action.svg?variant=adaptive)](https://starchart.cc/tylerelyt/LLaMA-in-Action)
 
-## License
+## 许可证
 
-This repository is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.  
-The license applies only to versions tagged `v0.0.1` and later. Please see the [LICENSE](LICENSE) file for details.
+本仓库使用 **知识共享署名-非商业性使用-相同方式共享 4.0 国际（CC BY-NC-SA 4.0）** 许可协议授权。  
+许可证适用于标记为 `v0.0.1` 及后续版本的内容。详情请查看 [LICENSE](LICENSE) 文件。
 
-## About the Course
+## 课程介绍
 
-This repository is a companion resource for the [GeekTime LLaMA Advanced Course](https://time.geekbang.org/column/intro/100828301). It contains practical examples, exercises, and additional materials to complement the course content. The materials are organized by chapters or modules to align with the course structure.
+本仓库是 [极客时间 LLaMA 高级课程](https://time.geekbang.org/column/intro/100828301) 的配套资源。它包含实用的示例代码、练习和补充材料，以辅助课程内容的学习。材料按章节或模块组织，与课程结构保持一致。
 
-**Note:** The repository content is continuously updated to match the course's progress. Be sure to check back regularly for the latest resources.
+**注意：** 仓库内容会随课程的进展持续更新，请定期查看以获取最新资源。
 
 ![image](https://github.com/user-attachments/assets/25376122-8df2-41f7-be90-e9c53a1e020e)
-
