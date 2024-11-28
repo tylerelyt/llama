@@ -6,8 +6,6 @@
 
 本仓库包含与 **LLaMA 模型系列**相关的代码示例、练习和工具，旨在提供动手学习的机会，帮助理解前沿的机器学习和人工智能应用。
 
-[English](README.md) | [中文](https://github.com/tylerelyt/LLaMA-in-Action/blob/master/README_zh.md)
-
 | 题号 | 课程名称 | 难度 | 完成 |
 |------|----------|------|--------|
 | 1    | 揭示 LLaMA 3 对话能力的奥秘 | 简单 | ✅ |
